@@ -1,32 +1,19 @@
 import Link from "next/link";
 import styles from "./styles.module.css";
+import NAVBAR_MAPPING from "@/constants/navbar_mapping";
 
 function Navbar() {
   return (
     <div className={styles.conatiner}>
-      <Link href="/Home" className={styles.link}>
-        Home
-      </Link>
+      {NAVBAR_MAPPING.map((item) => {
+        const { id = "", title = "", link = "" } = item || {};
 
-      <Link href="/Genre" className={styles.link}>
-        Genre
-      </Link>
-
-      <Link href="/Ongoing" className={styles.link}>
-        Ongoing
-      </Link>
-
-      <Link href="/Type" className={styles.link}>
-        Type
-      </Link>
-
-      <Link href="/Completed" className={styles.link}>
-        Completed
-      </Link>
-
-      <Link href="/About" className={styles.link}>
-        About
-      </Link>
+        return (
+          <Link key={id} href={link} className={styles.link}>
+            {title}
+          </Link>
+        );
+      })}
     </div>
   );
 }
