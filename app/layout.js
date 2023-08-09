@@ -1,7 +1,8 @@
+import Header from "./Header";
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Preahvihear } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Preahvihear({ weight: "400", subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -11,6 +12,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <div>
+      <div className={inter.className}>
+        <Header />
+      </div>
+
       <div className={inter.className}>{children}</div>
     </div>
   );

@@ -1,0 +1,30 @@
+.conatiner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 40px;
+}
+
+.link{
+    flex: 1;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid white;    
+    border-radius: 12px;
+    background: #c2d5d0;
+}
+
+.link:hover{
+    transform: scale(1.2);
+    transition: all 1s;
+    border-radius: 12px; 
+    background-image: url('https://img.freepik.com/premium-photo/watercolor-style-sky-sweet-color-background_176697-2682.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:cover;
+    color: #214953;
+    font-weight: 600;
+    font-size: 24px; 
+    text-decoration: underline wavy white;
+}
