@@ -4,28 +4,30 @@
     align-items: center;
     justify-content: space-around;
     margin: 0 40px;
+    font-size: 24px;
 }
 
 .link{
     flex: 1;
     padding: 8px 16px;
-    text-align: center;
-    border: 1px solid white;    
+    text-align: center;   
     border-radius: 12px;
-    color: #3f3f3f;
+    color: #fff;
+    margin:10px;
 }
 
 .link:hover{
-    transform: scale(1.1);
+    transform: scale(1);
     transition: all 1s;
     border-radius: 12px; 
     background-image: url('https://img.freepik.com/premium-photo/watercolor-style-sky-sweet-color-background_176697-2682.jpg');
-    opacity: 0.6;
+    opacity: 0.9;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size:cover;
     color: #000000;
     font-weight: 600;
-    font-size: 16px; 
+    font-size: 28px; 
     text-decoration: underline wavy white;
+    margin: 0px 10px;
 }

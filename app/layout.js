@@ -1,8 +1,9 @@
+import BackgroundVideo from "@/common/backgroundVideo";
 import Header from "./Header";
 import "./globals.css";
-import { Preahvihear } from "next/font/google";
+import { VT323 } from "next/font/google";
 
-const inter = Preahvihear({ weight: "400", subsets: ["latin"] });
+const inter = VT323({ weight: "400", subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -12,6 +13,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <div>
+      <BackgroundVideo />
+
       <div className={inter.className}>
         <Header />
       </div>

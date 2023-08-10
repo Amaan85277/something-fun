@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import SearchBar from "./SearchBar";
 import styles from "./styles.module.css";
 
 function Header() {
@@ -8,7 +9,7 @@ function Header() {
 
       <Navbar />
 
-      <div style={{ flex: 1 }}>..</div>
+      <SearchBar />
     </div>
   );
 }
