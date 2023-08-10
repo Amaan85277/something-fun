@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import React, { useState } from "react";
 import styles from "./styles.module.css";
 
 function SearchBar() {
@@ -19,7 +19,7 @@ function SearchBar() {
         className={styles.input}
         placeholder="Search"
         value={val}
-        oninput={handleChange}
+        onChange={handleChange}
       />
     </div>
   );
