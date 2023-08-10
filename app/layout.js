@@ -1,5 +1,5 @@
 import BackgroundVideo from "@/common/BackgroundVideo";
-import Header from "./Header";
+import Header from "../common/Header";
 import "./globals.css";
 import { VT323 } from "next/font/google";
 

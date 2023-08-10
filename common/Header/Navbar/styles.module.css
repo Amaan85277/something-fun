@@ -17,7 +17,7 @@
 }
 
 .link:hover{
-    transform: scale(1);
+    transform: scale(1.1);
     transition: all 0.7s;
     border-radius: 12px; 
     background-image: url('https://as1.ftcdn.net/v2/jpg/01/73/79/26/1000_F_173792644_y2KhNDsPkddYePsI0g05zeeqY9MAZGzO.jpg');
