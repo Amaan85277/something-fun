@@ -7,6 +7,7 @@
     font-size: 24px;
 }
 
+/*
 .link{
     flex: 1;
     padding: 8px 16px;
@@ -22,12 +23,30 @@
     border-radius: 12px; 
     background-image: url('https://as1.ftcdn.net/v2/jpg/01/73/79/26/1000_F_173792644_y2KhNDsPkddYePsI0g05zeeqY9MAZGzO.jpg');
     opacity: 0.9;
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center; 
+    background-repeat: no-repeat; 
     background-size:cover;
     color: #000000;
     font-weight: 600;
     font-size: 28px; 
     text-decoration: underline wavy white 0.8px;
     margin: 0px 10px;
+}
+*/
+
+.link{
+    border: 1px solid black;
+    background: #F7D620;
+    color: #000;
+    padding: 10px; 
+    margin: 10px;
+
+    box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+}
+
+.link:hover{
+    margin:0 10px;
+    transform: scale(1.1);
+    transition: all 0.7s;
+    background: white;
 }
