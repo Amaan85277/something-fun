@@ -18,9 +18,9 @@
 
 .link:hover{
     transform: scale(1);
-    transition: all 1s;
+    transition: all 0.7s;
     border-radius: 12px; 
-    background-image: url('https://img.freepik.com/premium-photo/watercolor-style-sky-sweet-color-background_176697-2682.jpg');
+    background-image: url('https://as1.ftcdn.net/v2/jpg/01/73/79/26/1000_F_173792644_y2KhNDsPkddYePsI0g05zeeqY9MAZGzO.jpg');
     opacity: 0.9;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -28,6 +28,6 @@
     color: #000000;
     font-weight: 600;
     font-size: 28px; 
-    text-decoration: underline wavy white;
+    text-decoration: underline wavy white 0.8px;
     margin: 0px 10px;
 }
