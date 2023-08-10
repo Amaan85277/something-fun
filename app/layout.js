@@ -2,7 +2,7 @@ import BackgroundVideo from "@/common/BackgroundVideo";
 import Header from "../common/Header";
 import "./globals.css";
 import { VT323 } from "next/font/google";
-
+import React from "react";
 const inter = VT323({ weight: "400", subsets: ["latin"] });
 
 export const metadata = {
